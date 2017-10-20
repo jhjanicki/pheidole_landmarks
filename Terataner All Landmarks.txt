@@ -1,0 +1,61 @@
+##################  HEAD  ###############
+
+1  R Post Margin
+2  R Post Horn
+3  R Post Eye
+4  R Ant Eye
+5  R Eye Apex
+6  R Post Antenna Socket
+7  R Ant Antenna Socket (Start of Ridge)
+8  R Lat Mandible Cleft
+9  R Ant Clypeus Lip
+10 R Ant Metastoma Margin Corner
+11 R Post Metastoma Margin Corner
+12 C Ant Clypeus
+13 C Post Clypeus
+14 C Post Margin
+15 L Post Margin
+16 L Post Horn
+17 L Post Eye
+18 L Ant Eye
+19 L Eye Apex
+20 L Post Antenna Socket
+21 L Ant Antenna Socket (Start of Ridge)
+22 L Lat Mandible Cleft
+23 L Ant Clypeus Lip
+24 R Ant Metastoma Margin
+25 R Post Metastoma Margin
+
+
+#################  MESOSOMA  #############
+
+26 Pron - Anterior Tip
+27 Pron - L Blade meets natural curve of A-D edge
+28 Pron - L Blade Anterior tip
+29 Pron - L Inf Ant Tip
+30 Pron - L Inf Post Tip
+31 Pron - L D-L Margin meets Post edge
+32 Pron - Mid-sag Line meets Meso
+33 Pron - R Blade meets natural curve of A-D edge
+34 Pron - R Blade Anterior tip
+35 Pron - R Inf Ant Tip
+36 Pron - R Inf Post Tip
+37 Pron - R D-L Margin meets Post edge
+38 Meso - Center of Metanotal Groove
+39 Meso - L Lat. Ridge meets Prop
+40 Meso - L Inferior Corner
+41 Meso - L Inf. Meets Prop
+42 Meso - R Lat. Ridge meets Prop
+43 Meso - R Inferior Corner
+44 Meso - R Inf. Meets Prop
+45 Prop - L Spine Tip
+46 Prop - L Spiracle (Ant Margin of)
+47 Prop - L Ant. Gland Corner
+48 Prop - L Post. Gland Corner
+49 Prop - L Post.-V Metapleuron Corner
+50 Prop - Posteroventral median bump
+51 Prop - R Spine Tip
+52 Prop - R Spiracle (Ant Margin of)
+53 Prop - R Ant. Gland Corner
+54 Prop - R Post. Gland Corner
+55 Prop - R Post.-V Metapleuron Corner

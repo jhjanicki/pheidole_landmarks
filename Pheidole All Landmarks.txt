@@ -1,0 +1,71 @@
+##################  HEAD  ###############
+
+1  R Post. Eye
+2  R Ant. Eye
+3  R Eye Apex
+4  R Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again)
+5  R Ant. Antenna Socket (Start of Ridge)
+6  Clypeus Center Front
+7  L Metastoma Margin? Corner
+8  R Metastoma Margin? Corner
+9  L Post. Eye
+10 L Ant. Eye
+11 L Eye Apex
+12 L Ant. Antenna Socket (Start of Ridge)
+13 L Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again)
+
+
+------------------ HEAD CURVES -----------
+
+1 Ventral Line
+	1 - Postero-Ventral Margin of Head on V Line
+	2 - Antero-Ventral Margin of Head on V Line
+
+2 L Lateral Line
+	1 - L Post Margin of L Lat Line
+	2 - L Ant Margin of L Lat Line
+
+3 R Lateral Line
+	1 - R Post Margin of R Lat Line
+	2 - R Ant Margin of R Lat Line
+
+4 Dorsal Line
+	1 - Postero-Dorsal Margin of Head on D Line
+	2 - POSTERIOR POINT OF CLYPEUS
+
+##UNDER LANDMARKS, SET ALL CURVES TO DENSITY = 10##
+
+
+#################  MESOSOMA  #############
+
+14 Pron - Ant. Apex
+15 Pron - L A-L Corner meets Lat Ridge
+16 Pron - L Shoulder Corner
+17 Pron - L Spiracle
+18 Pron - L Posterior Corner
+19 ProMeso - Dorsal Apex
+20 Pron - R A-L Corner meets Lat Ridge
+21 Pron - R Shoulder Corner
+22 Pron - R Spiracle
+23 Pron - R Posterior Corner
+24 Center Metanotal Groove
+25 Meso - L A-L Corner
+26 Meso - L P-L Corner
+27 Meso - L Spiracle meets Groove
+28 Meso - L Postero-Dorsal Corner (or Spine Tip)
+29 Meso - R A-L Corner
+30 Meso - R P-L Corner
+31 Meso - R Spiracle meets Groove
+32 Meso - R Postero-Dorsal Corner (or Spine Tip)
+33 Center Posterior Propodeum
+34 Prop - L Spiracle
+35 Prop - L Post. Corner
+36 Prop - L Ant. Gland Opening
+37 Prop - L Post. Gland Opening
+38 Prop - L Spine Tip
+39 Prop - Center between Spines
+40 Prop - R Spine Tip
+41 Prop - R Spiracle
+42 Prop - R Post. Corner
+43 Prop - R Ant. Gland Opening
+44 Prop - R Post. Gland Opening

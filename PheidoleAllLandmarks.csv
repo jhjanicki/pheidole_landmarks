@@ -1,0 +1,53 @@
+character,part
+1  R Post. Eye,head
+2  R Ant. Eye,head
+3  R Eye Apex,head
+4  R Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again),head
+5  R Ant. Antenna Socket (Start of Ridge),head
+6  Clypeus Center Front,head
+7  L Metastoma Margin? Corner,head
+8  R Metastoma Margin? Corner,head
+9  L Post. Eye,head
+10 L Ant. Eye,head
+11 L Eye Apex,head
+12 L Ant. Antenna Socket (Start of Ridge),head
+13 L Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again),head
+1 - Postero-Ventral Margin of Head on V Line,head curve ventral line
+2 - Antero-Ventral Margin of Head on V Line,head curve ventral line
+1 - L Post Margin of L Lat Line,head curve L lateral line
+2 - L Ant Margin of L Lat Line,head curve L lateral line
+1 - R Post Margin of R Lat Line,head curve R lateral line 
+2 - R Ant Margin of R Lat Line,head curve R lateral line 
+1 - Postero-Dorsal Margin of Head on D Line,head curve dorsal line
+2 - POSTERIOR POINT OF CLYPEUS,head curve dorsal line
+14 Pron - Ant. Apex,mesosoma
+15 Pron - L A-L Corner meets Lat Ridge,mesosoma
+16 Pron - L Shoulder Corner,mesosoma
+17 Pron - L Spiracle,mesosoma
+18 Pron - L Posterior Corner,mesosoma
+19 ProMeso - Dorsal Apex,mesosoma
+20 Pron - R A-L Corner meets Lat Ridge,mesosoma
+21 Pron - R Shoulder Corner,mesosoma
+22 Pron - R Spiracle,mesosoma
+23 Pron - R Posterior Corner,mesosoma
+24 Center Metanotal Groove,mesosoma
+25 Meso - L A-L Corner,mesosoma
+26 Meso - L P-L Corner,mesosoma
+27 Meso - L Spiracle meets Groove,mesosoma
+28 Meso - L Postero-Dorsal Corner (or Spine Tip),mesosoma
+29 Meso - R A-L Corner,mesosoma
+30 Meso - R P-L Corner,mesosoma
+31 Meso - R Spiracle meets Groove,mesosoma
+32 Meso - R Postero-Dorsal Corner (or Spine Tip),mesosoma
+33 Center Posterior Propodeum,mesosoma
+34 Prop - L Spiracle,mesosoma
+35 Prop - L Post. Corner,mesosoma
+36 Prop - L Ant. Gland Opening,mesosoma
+37 Prop - L Post. Gland Opening,mesosoma
+38 Prop - L Spine Tip,mesosoma
+39 Prop - Center between Spines,mesosoma
+40 Prop - R Spine Tip,mesosoma
+41 Prop - R Spiracle,mesosoma
+42 Prop - R Post. Corner,mesosoma
+43 Prop - R Ant. Gland Opening,mesosoma
+44 Prop - R Post. Gland Opening,mesosoma

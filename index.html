@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
+	<style>
+	html,body{
+			font-family: 'Source Sans Pro', sans-serif;
+			overflow-x:hidden;
+			background-color: #EDEAE2;
+			position: relative;
+  			margin: 0;
+  			font-size:20px;
+  			height:100%;
+	}
+	
+	.button .item {
+		  margin-bottom: 10px;
+		  font-size:0.8em;
+		  padding-right:10px;
+		}
+		
+		
+		
+	.button {
+			padding:10px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 0.6em;
+			line-height: 1.5;
+			text-transform: uppercase;
+			background-color: #EDEAE2 !important;
+			color:black !important;
+			border: solid 1px black !important;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			transition: all 500ms ease;
+			text-align: center;
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
+		}
+		
+	.button:hover{
+		background-color: black !important;
+		color: #EDEAE2 !important;
+	}
+	
+	button{
+		background-color:white;
+	}
+	
+	.marginbottom100{
+			margin-bottom:20vh;
+	}
+	
+	.marginbottom50{
+			margin-bottom:10vh;
+	}
+	
+	.navbar .navbar-nav {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+	}
+
+	.navbar .navbar-collapse {
+	  text-align: center;
+	}
+	
+	h1{
+		font-size:70px;
+	}
+	
+	#stepBackward{
+		z-index:10;
+	}
+	
+	.center-block {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	 }
+	 
+	 img::-moz-selection{
+		background-color:Transparent;
+		color:#000;
+    }
+
+    img::selection {
+    	background-color:Transparent;
+    	color:#000;
+    }
+	</style>
+	
+</head>
+
+<body>
+	<div class="container-full">
+	 <section class="marginbottom50">
+		<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" id="navbartoggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				<li id="nav1" class="active"><a>Head</a></li>
+				<li id="nav2"><a>Head Curves</a></li>
+				<li id="nav3"><a>Mesosoma</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+	</section>
+	
+		<div class="row marginbottom50">
+			<div class="col-md-2">
+				<button id="stepBackward" class="item button">
+							<i id="prev" class="fa fa-backward" aria-hidden="true"></i>
+							<span id="prev2"> Previous </span>
+				</button>
+				
+			</div>
+			<div class="col-md-8">
+				<h1 id="text" class="text-center"></h1>
+			</div>
+			<div class="col-md-2">
+				<button id="stepForward" class="item button">
+							<i id="next" class="fa fa-forward" aria-hidden="true"></i>
+							<span id="next2"> Next </span>
+				</button>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<img id="img" class="img-responsive center-block" src="./img/1.PNG"/>
+			</div>
+			<div class="col-md-4"></div>
+			
+		</div>
+	</div> 
+	
+	
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="landmarks.js"></script>
+
+<script>
+
+window.onload = function(){
+
+	var index = 0;
+	$("#text").html(landmarks[index].character);
+	
+	console.log(landmarks.length);
+	
+	$("#stepForward").on("click",function(){
+		// console.log("clicked");
+		// console.log(landmarks);
+		
+				console.log(this);
+				
+		if(index<landmarks.length-1){
+			index++;
+		};
+		
+		console.log(index);
+		$("#text").html(landmarks[index].character);
+		$("#img").attr("src",landmarks[index].img);
+		$(".nav li").removeClass("active");
+		
+		console.log(landmarks[index].index);
+		
+		if(landmarks[index].index == 1){
+			$("#nav1").addClass("active");
+		}else if(landmarks[index].index == 2){
+			$("#nav2").addClass("active");
+		}else if(landmarks[index].index == 3){
+			$("#nav3").addClass("active");
+		}
+		
+	
+	});
+	
+		$("body").on("click",function(evt){
+		// console.log("clicked");
+		// console.log(landmarks);
+		
+		if(evt.target.id == "stepBackward"){
+          return;
+        }
+        
+        if(evt.target.id == "stepForward"){
+          return;
+        }
+        
+        if(evt.target.id == "next"){
+          return;
+        }
+        
+        if(evt.target.id == "prev"){
+          return;
+        }
+        
+        if(evt.target.id == "next2"){
+          return;
+        }
+        
+        if(evt.target.id == "prev2"){
+          return;
+        }
+        
+        if(evt.target.id == "navbartoggle"){
+         return;
+        }
+
+        
+		
+		if(index<landmarks.length-1){
+			index++;
+		};
+		
+		console.log(index);
+		$("#text").html(landmarks[index].character);
+		$("#img").attr("src",landmarks[index].img);
+		
+		$(".nav li").removeClass("active");
+		
+		console.log(landmarks[index].index);
+		
+		if(landmarks[index].index == 1){
+			$("#nav1").addClass("active");
+		}else if(landmarks[index].index == 2){
+			$("#nav2").addClass("active");
+		}else if(landmarks[index].index == 3){
+			$("#nav3").addClass("active");
+		}
+		
+	
+	});
+	
+
+	$("#stepBackward").on("click",function(){
+		// console.log("clicked");
+		// console.log(landmarks);
+	
+		
+		if(index>0){
+			index--;
+		};
+		console.log(index);
+		$("#text").html(landmarks[index].character);
+		$("#img").attr("src",landmarks[index].img);
+		
+		$(".nav li").removeClass("active");
+		
+		console.log(landmarks[index].index);
+		
+		if(landmarks[index].index == 1){
+			$("#nav1").addClass("active");
+		}else if(landmarks[index].index == 2){
+			$("#nav2").addClass("active");
+		}else if(landmarks[index].index == 3){
+			$("#nav3").addClass("active");
+		}
+		
+	
+	});
+	
+	
+	
+
+	
+
+
+}
+</script>
+</body>
