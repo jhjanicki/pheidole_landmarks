@@ -1,0 +1,51 @@
+character,part,index,img
+1  R Post. Eye,head,1,./img/1.PNG
+2  R Ant. Eye,head,1,./img/2.PNG
+3  R Eye Apex,head,1,./img/3.PNG
+4  R Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again),head,1,./img/4.PNG
+5  R Ant. Antenna Socket (Start of Ridge),head,1,./img/5.PNG
+6  Clypeus Center Front,head,1,./img/6.PNG
+7  L Metastoma Margin? Corner,head,1,./img/7.PNG
+8  R Metastoma Margin? Corner,head,1,./img/8.PNG
+9  L Post. Eye,head,1,./img/9.PNG
+10 L Ant. Eye,head,1,./img/10.PNG
+11 L Eye Apex,head,1,./img/11.PNG
+12 L Ant. Antenna Socket (Start of Ridge),head,1,./img/12.PNG
+13 L Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again),head,1,./img/13.PNG
+1 - Postero-Ventral Margin of Head on V Line,head curve ventral line,2,./img/C1-1.PNG
+2 - Antero-Ventral Margin of Head on V Line,head curve ventral line,2,./img/C1-2.PNG
+1 - L Post Margin of L Lat Line,head curve L lateral line,2,./img/C2-1.PNG
+2 - L Ant Margin of L Lat Line,head curve L lateral line,2,./img/C2-2.PNG
+1 - R Post Margin of R Lat Line,head curve R lateral line ,2,./img/C3-1.PNG
+2 - R Ant Margin of R Lat Line,head curve R lateral line ,2,./img/C3-2.PNG
+1 - Postero-Dorsal Margin of Head on D Line,head curve dorsal line,2,./img/C4-1.PNG
+2 - POSTERIOR POINT OF CLYPEUS,head curve dorsal line,2,./img/C4-2.PNG
+14 Pron - Median Antero-Dorsal Ridge Edge,mesosoma,3,./img/14.PNG
+"15 Pron - L A-L (Shoulder) Corner of pronotum - Set in D.view, then check vertical symmetry",mesosoma,3,./img/15.PNG
+16 Pron - L Apex of Antero-Ventral Pronotum Corner,mesosoma,3,./img/16.PNG
+17 Pron - L Pronotal Ridge Apex ,mesosoma,3,./img/17.PNG
+18 Pron - L Spiracle,mesosoma,3,./img/18.PNG
+19 Pron - L Posterior Corner,mesosoma,3,./img/19.PNG
+20 ProMeso - Dorsal Apex,mesosoma,3,./img/20.PNG
+"21 Pron - R A-L (Shoulder) Corner of pronotum - Set in D.view, then check vertical symmetry",mesosoma,3,./img/21.PNG
+22 Pron - R Apex of Antero-Ventral Pronotum Corner,mesosoma,3,./img/22.PNG
+23 Pron - R Pronotal Ridge Apex,mesosoma,3,./img/23.PNG
+24 Pron - R Spiracle,mesosoma,3,./img/24.PNG
+25 Pron - R Posterior Corner,mesosoma,3,./img/25.PNG
+26 Center Metanotal Groove,mesosoma,3,./img/26.PNG
+27 Meso - L A-L Corner,mesosoma,3,./img/27.PNG
+28 Meso - L P-L Corner,mesosoma,3,./img/28.PNG
+29 Meso - L Spiracle meets Groove,mesosoma,3,./img/29.PNG
+30 Meso - R A-L Corner,mesosoma,3,./img/30.PNG
+31 Meso - R P-L Corner,mesosoma,3,./img/31.PNG
+32 Meso - R Spiracle meets Groove,mesosoma,3,./img/32.PNG
+33 Center Posterior Propodeum,mesosoma,3,./img/33.PNG
+34 Prop - L Spiracle (Ant.-most point),mesosoma,3,./img/34.PNG
+35 Prop - L Post. Corner,mesosoma,3,./img/35.PNG
+36 Prop - L Ant. Gland Opening,mesosoma,3,./img/36.PNG
+37 Prop - L Spine Tip,mesosoma,3,./img/37.PNG
+38 Prop - Center between Spines (or Ridge Apices),mesosoma,3,./img/38.PNG
+39 Prop - R Spine Tip,mesosoma,3,./img/39.PNG
+40 Prop - R Spiracle (Ant.-most point),mesosoma,3,./img/40.PNG
+41 Prop - R Post. Corner,mesosoma,3,./img/41.PNG
+42 Prop - R Ant. Gland Opening,mesosoma,3,./img/42.PNG

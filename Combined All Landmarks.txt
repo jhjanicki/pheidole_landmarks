@@ -1,0 +1,69 @@
+##################  HEAD  ###############
+
+1  R Post. Eye
+2  R Ant. Eye
+3  R Eye Apex
+4  R Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again)
+5  R Ant. Antenna Socket (Start of Ridge)
+6  Clypeus Center Front
+7  L Metastoma Margin? Corner
+8  R Metastoma Margin? Corner
+9  L Post. Eye
+10 L Ant. Eye
+11 L Eye Apex
+12 L Ant. Antenna Socket (Start of Ridge)
+13 L Post. Antenna Socket (Under ridge in deepest part of hollow before it goes up again)
+
+
+------------------ HEAD CURVES -----------
+
+1 Ventral Line
+	1 - Postero-Ventral Margin of Head on V Line
+	2 - Antero-Ventral Margin of Head on V Line
+
+2 L Lateral Line
+	1 - L Post Margin of L Lat Line
+	2 - L Ant Margin of L Lat Line
+
+3 R Lateral Line
+	1 - R Post Margin of R Lat Line
+	2 - R Ant Margin of R Lat Line
+
+4 Dorsal Line
+	1 - Postero-Dorsal Margin of Head on D Line
+	2 - POSTERIOR POINT OF CLYPEUS
+
+##UNDER LANDMARKS, SET ALL CURVES TO DENSITY = 10##
+
+
+#################  MESOSOMA  #############
+
+14 Pron - Median Antero-Dorsal Ridge Edge
+15 Pron - L A-L (Shoulder) Corner of pronotum - Set in D.view, then check vertical symmetry
+16 Pron	  L Apex of Antero-Ventral Pronotum Corner
+17 Pron - L Pronotal Ridge Apex 
+18 Pron - L Spiracle
+19 Pron - L Posterior Corner
+20 ProMeso - Dorsal Apex
+21 Pron - R A-L (Shoulder) Corner of pronotum - Set in D.view, then check vertical symmetry
+22 Pron - R Apex of Antero-Ventral Pronotum Corner
+23 Pron - R Pronotal Ridge Apex
+24 Pron - R Spiracle
+25 Pron - R Posterior Corner
+26 Center Metanotal Groove
+27 Meso - L A-L Corner
+28 Meso - L P-L Corner
+29 Meso - L Spiracle meets Groove
+30 Meso - R A-L Corner
+31 Meso - R P-L Corner
+32 Meso - R Spiracle meets Groove
+33 Center Posterior Propodeum
+34 Prop - L Spiracle (Ant.-most point)
+35 Prop - L Post. Corner
+36 Prop - L Ant. Gland Opening
+37 Prop - L Spine Tip
+38 Prop - Center between Spines (or Ridge Apices)
+39 Prop - R Spine Tip
+40 Prop - R Spiracle (Ant.-most point)
+41 Prop - R Post. Corner
+42 Prop - R Ant. Gland Opening
